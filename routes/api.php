@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Http\Request;
-
+use App\Http\Controllers\rrhh\RecursosHumanosController;
 
 // Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 //     return $request->user();
@@ -9,15 +9,5 @@ use Illuminate\Http\Request;
 
 // -----> legasis versiones pasadas o obsoletas, viejitas pero siguen funcionando
 
-// Route::prefix('v1.0')->group(function () {
-//     Route::post('check', function () {
-//         return "ok";
-//     });
-//     //estandar softdelete
-//     Route::get(
-//         'hello',
-//         [ejemploController::class, 'index']
-//     );
-// });
-
+//import de Rutas RH
 include('RRHH/services.php');

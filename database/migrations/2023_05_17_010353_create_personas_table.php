@@ -14,6 +14,7 @@ return new class extends Migration
             $table->string('ap_paterno', 60);
             $table->string('ap_materno', 60);
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

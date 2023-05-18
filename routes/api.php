@@ -10,4 +10,5 @@ use App\Http\Controllers\rrhh\RecursosHumanosController;
 // -----> legasis versiones pasadas o obsoletas, viejitas pero siguen funcionando
 
 //import de Rutas RH
+
 include('RRHH/services.php');
